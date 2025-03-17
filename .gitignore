@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+
+# Model files and checkpoints
+models/
+*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset files (if they are large or sensitive)
+datasets/*.csv
+
+# Static files (if generated dynamically)
+static/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+
+
+# Environment variables or secrets
+.env
+*.env
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Dependencies (if using virtualenv or poetry)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# VS Code settings (optional)
+.vscode/
+
+# Jupyter Notebook settings (optional)
+
